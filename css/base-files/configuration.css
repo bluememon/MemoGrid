@@ -1,0 +1,15 @@
+.memoGrid {
+
+    /* Class section */
+    --default-columns: 12;
+    --default-gutter-space: 15px;
+
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding:0;
+
+    display: grid;
+    grid-template-columns: repeat(var(--default-columns), 1fr);
+    grid-template-rows: min-content;
+}
