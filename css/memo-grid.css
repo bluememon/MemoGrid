@@ -1,0 +1,25 @@
+@import 'base-files/grid.css';
+
+/* 
+    Temporary styles for test page
+*/
+
+html, body {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 15px;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.memoGrid {
+    border: solid 1px #EAD2AC;
+    padding: 15px 0;
+    background-color: #4281A4;
+}
+
+.memoGrid *[class^="width-"] {
+    background-color: #9CAFB7;
+    padding: 15px;
+}
